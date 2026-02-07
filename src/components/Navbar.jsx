@@ -11,9 +11,9 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
         <nav className="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.7)] backdrop-blur-lg border-b border-white/10 shadow-lg">
             <div className="max-w-4xl mx-auto px-4">
                 <div className="flex justify-between items-center h-16">
-                    <a href="#home" className="text-white font-mono text-xl font-bold">
+                    <a href="#home" className="text-black font-mono text-xl font-bold">
                     {""} 
-                    ivan <span className="text-blue-500"> portfolio </span> {""}
+                    Ivan <span className="text-blue-500"> portfolio </span> {""}
                     </a>
 
                     <div 
@@ -26,7 +26,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                     <div className="hidden md:flex items-center space-x-8">
                         <a 
                             href="#home" 
-                            className="text-gray-300 hove:text-white transition-colors"
+                            className="text-black hove:text-black transition-colors"
                         >
                         {""}     
                         Home{""}
@@ -34,7 +34,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
 
                         <a 
                             href="#about" 
-                            className="text-gray-300 hove:text-white transition-colors"
+                            className="text-black hove:text-black transition-colors"
                         >
                         {""}     
                         About{""}
@@ -42,7 +42,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
 
                         <a 
                             href="#projects" 
-                            className="text-gray-300 hove:text-white transition-colors"
+                            className="text-black hove:text-black transition-colors"
                         >
                         {""}     
                         Projects{""}
@@ -50,7 +50,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
 
                         <a 
                             href="#contact" 
-                            className="text-gray-300 hove:text-white transition-colors"
+                            className="text-black hove:text-black transition-colors"
                         >
                         {""}     
                         Contact{""}
