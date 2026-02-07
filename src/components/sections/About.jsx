@@ -1,3 +1,5 @@
+import {RevealScroll} from "../RevealScroll"
+
 export const About = () => {
 
     const skills = [
@@ -10,6 +12,7 @@ export const About = () => {
 
     return (
         <section id="about" className="min-h-screen flex items-center justify-center py-20">
+            <RevealScroll>
             <div className="max-w-3xl mx-auto px-4">
                 <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-purple-500 to-blue-500 text-center bg-clip-text text-transparent">
                     About Me
@@ -65,6 +68,7 @@ export const About = () => {
                     </div>
                 </div>
             </div>
+            </RevealScroll>
         </section>
     ); 
 
